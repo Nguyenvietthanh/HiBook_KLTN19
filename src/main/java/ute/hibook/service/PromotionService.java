@@ -13,5 +13,6 @@ public interface PromotionService {
 	public void deletePromotion(int idPromotion);
 	public ConvertPromotionDTO getPromotionById(int idPromotion);
 	public List<ConvertPromotionDTO> getAllPromotion();
+	public List<PromotionDTO> getAllPromotions();
 	public List<PromotionDTO> getAllPromotiondate();
 }
